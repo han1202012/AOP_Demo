@@ -11,6 +11,6 @@ import java.lang.annotation.Target;
  */
 @Retention(RetentionPolicy.RUNTIME) // 注解保留到运行时
 @Target(ElementType.METHOD) // 注解作用于方法上
-public @interface BehaviorTrace {
+public @interface Monitor {
     String value();
 }

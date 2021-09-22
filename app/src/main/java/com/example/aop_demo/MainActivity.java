@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    @BehaviorTrace("textClick")
+    @Monitor("textClick")
     public void textClick(View view) {
         // 休眠 500 ms
         SystemClock.sleep(500);
